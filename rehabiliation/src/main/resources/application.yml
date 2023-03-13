@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/person
+    username: root
+    password: Rikhi@9812
+
+
+#mybatis
+
+mybatis:
+  mapper-locations: classpath*:mapper/*.xml
+    
